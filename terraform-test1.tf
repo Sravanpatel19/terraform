@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAY4XO5NNJL4B4IV7Y"
-  secret_key = "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"
+  access_key = "xxxxxxxxxxxxxxxxxxxxxxx"
+  secret_key = "yyyyyyyyyyyyyyyyyyyyyyy"
 }
 resource "aws_vpc" "grocery" {
   cidr_block       = "10.0.0.0/16"
